@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://rupakdey:6JwYrWKjpQhtm7k0@mongorupak.rvyqj.mongodb.net/instaGallery",
+  "jwtSecret": "rupakdey1998"
+}

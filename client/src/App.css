@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login-card {
+  padding: 5.2rem 0;
+  background-color: #d5fefd;
+  background-image: linear-gradient(to bottom, #d5fefd 0%, #fffcff 74%);  }
+
+.login {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 400px;
+  /* max-height: 800px; */
+  margin: 10px auto;
+}
+
+.wrap {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px solid grey; */
+}
+
+.container {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container-img {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 5px solid #a5119e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.content-details {
+    padding-top: 2rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts, .followers, .following {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts p, .followers p, .following p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.posts span, .followers span, .following span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.gallery {
+    max-width: 840px;
+    width: 100%;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden;
+    grid-gap: .5rem;
+
+    margin-bottom: 3rem;
+}
+
+.gallery img {
+    width: 90%;
+    margin: .5rem;
+    justify-self: center;
+    background-image: cover;
+}
+
+.home {
+    
+}
+
+.home-card {
+    max-width: 500px;
+    height: max-content;
+    margin: 1.5rem auto;
+}
+
+.card-container {
+    margin: 1.5rem 0;
+}
